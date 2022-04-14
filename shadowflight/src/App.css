@@ -44,6 +44,11 @@
   justify-content: space-evenly;
   width: 60%;
 }
+#divSplitRecruit {
+  display: flex;
+  justify-content: space-evenly;
+  width:100%;
+}
 #container-div {
   display: flex;
   justify-content: space-around;

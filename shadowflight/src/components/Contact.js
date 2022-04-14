@@ -2,6 +2,8 @@ import React from 'react';
 import discordCustom from '../static/discordCustom.png'
 import discordBlue from '../static/discordBlue.png'
 import cookadile from '../static/cookadile.jpeg'
+import lall from '../static/lall.jpeg'
+
 export default () => {
     return (
         <>
@@ -17,7 +19,7 @@ export default () => {
                             <br/>
                             Contact in-game:
                         </p> 
-                        <div>
+                        <div id='divSplitRecruit'>
                             <div>
                                 <img src={cookadile} id='portrait'/>
                                 <br/>
@@ -27,10 +29,10 @@ export default () => {
                                 in-game</p>
                             </div>
                             <div>
-                                <img src={cookadile} id='portrait'/>
+                                <img src={lall} id='portrait'/>
                                 <br/>
-                                <span id='in_game'>Cookadile Dundee</span>
-                                <p>(EU Time Zone)
+                                <span id='in_game'>Lall</span>
+                                <p>(US Time Zone)
                                 <br/>
                                 in-game</p>
                             </div>
@@ -42,6 +44,7 @@ export default () => {
                     </div>
                 </div>
                 <br/>
+                <h3>OR</h3>
                 <p>Join our discord channel</p>
                 <a href ='https://discord.gg/xUnv7yZV' id='discordLogoNight'><img src={discordCustom}/><br/>Discord</a>
                 <a href ='https://discord.gg/xUnv7yZV' id='discordLogoDay'><img src={discordBlue}/><br/><span id='royal_blue'>Discord</span></a>
