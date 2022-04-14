@@ -48,14 +48,15 @@ export default () => {
                         <div id='inner-div'>
                             <h3>What we Offer</h3>
                             <ul>
-                                <li>A great community</li>
-                                <li>Ratting</li>
+                                <li>A Great Community</li>
                                 <li>PVP</li>
                                 <li>Mining</li>
                                 <li>Exploration</li>
-                                <li>Small Gang Roams</li>
-                                <li>Planetary Interaction</li>
+                                <li>Gas Huffing</li>
                                 <li>Moon Mining</li>
+                                <li>Small Gang Roams</li>
+                                <li>C3 and C5 Ratting</li>
+                                <li>Planetary Interaction</li>
                             </ul>
                         </div>
                     </div>

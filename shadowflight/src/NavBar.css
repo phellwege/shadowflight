@@ -12,7 +12,7 @@
     .navBar button {
         position: fixed;
         left: 25px;
-        top: 50px;
+        top: 25px;
         z-index: 10;
         cursor: pointer;
     }
@@ -23,7 +23,7 @@
         top: 12%;
         left: 0;
         bottom: 0;
-        height: 100vh;
+        height: 88vh;
         width: 0;
         overflow: hidden;
         max-width: 290px;
@@ -43,7 +43,7 @@
         font-weight: bold;
     }
     .menuNav li:first-child {
-        margin-top: 7rem;
+        margin-top: 3.5rem;
     }
     .navBar button {
         background: transparent;
