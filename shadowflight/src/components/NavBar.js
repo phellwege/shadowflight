@@ -47,6 +47,10 @@ const NavBar = () => {
         color: ${props => 
             props.theme.mode === 'dark' ? 'whitesmoke' : '#111' };
     }
+    h3 {
+        color: ${props => 
+            props.theme.mode === 'dark' ? '#E5E8E8' : '#111' };
+    }
     nav {
         box-shadow: ${props =>
             props.theme.mode === 'dark' ? '0 0 15px #56f981' : '0 0 8px rgba(55,55,55,1)'};
