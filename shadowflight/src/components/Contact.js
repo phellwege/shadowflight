@@ -11,11 +11,11 @@ export default () => {
                 <div id='divSplitContact'>
                     <div id='inner-div'>
                         <h3>Recruitment</h3>
-                        <p>We've got a really great community, if you're interested in seeing if we're the right fit. contact: Cookadile Dundee (EU Time Zone) or Lal (US Time Zone) in game.</p>
+                        <p>We've got a really great community, if you're interested in seeing if we're the right fit. contact: <span id='in_game'>Cookadile Dundee</span> (EU Time Zone) or <span id='in_game'>Lal</span> (US Time Zone) in game.</p>
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
-                        <p>If you would like to reach us regarding a diplomacy issue, please reach out to _____________ in game</p>
+                        <p>If you would like to reach us regarding a diplomacy issue, please join the <span id='in_game'>"Shadow Flight Diplo"</span> channel in game</p>
                     </div>
                 </div>
                 <br/>

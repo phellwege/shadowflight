@@ -23,8 +23,6 @@ export default () => {
                                 <p>We are a corp that focuses on helping introduce players of all kinds into worm-holing. While our primary focus is on guiding new players into the wormhole life, Eve veterans can also enjoy our laid back atmosphere.
                                 <br/>
                                 We've been around for 4 years building our community and now reside in a Class 4 wormhole with an easier C3 and a tougher C5 static, so there's gameplay for both newer and more experienced players to enjoy.
-                                <br/>
-                                We offer most kinds of content and ISK making opportunities, such as Moon and Anom Mining, Gas huffing, Exploration, great Planetary Interaction, c3 and c5 ratting, and of course we relish in a bit of PvP.
                                 </p>
                             </div>
                         </div>

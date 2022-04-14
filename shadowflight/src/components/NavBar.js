@@ -99,6 +99,10 @@ const NavBar = () => {
         display: ${props =>
             props.theme.mode === 'dark' ? '' : 'none'};
     }
+    #in_game {
+        color: ${props =>
+            props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
+    }
     };
 `
 
