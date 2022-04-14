@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import Home from './views/Home';
 
 import './App.css';
+import NewBroLinks from './views/NewBroLinks';
 
 
 
@@ -16,6 +17,7 @@ const [theme, setTheme] = useState({mode: 'light'})
         <React.Fragment>
           <Router>
             <Home path="/"/>
+            <NewBroLinks path='/NewBroLinks'/>
           </Router>
       </React.Fragment>
       </div>
