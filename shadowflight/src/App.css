@@ -36,6 +36,9 @@
   width: 60%;
   padding: 1%;
 }
+#divSplit ul li {
+  text-align: left;
+}
 #divSplitContact {
   display: flex;
   justify-content: space-evenly;
@@ -57,7 +60,9 @@
 #in_game {
   font-style: italic;
   font-size: 1.1em;
-  font-weight: bold;
+}
+#portrait {
+  margin: 7.5px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

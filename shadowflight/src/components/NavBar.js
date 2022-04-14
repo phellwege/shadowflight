@@ -10,7 +10,7 @@ import Discord from '../static/discord.png';
 
 const NavBar = () => {
         const [toggled, setToggled] = useState(false);
-        const [theme, setTheme] = useState({mode: 'light'})
+        const [theme, setTheme] = useState({mode: 'dark'})
         const handleClick =() => {
             setToggled((s)=>!s);
             setTheme(theme.mode === 'dark' ? {mode: 'light'}: {mode:'dark'})
@@ -107,9 +107,12 @@ const NavBar = () => {
         color: ${props =>
             props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
     }
+    #portrait {
+        border:${props =>
+            props.theme.mode === 'dark' ? '2px solid #1ABC9C' : '2px solid royalblue'};
+    }
     };
 `
-
     return (
         <>
         <ThemeProvider theme={theme}>
@@ -126,7 +129,7 @@ const NavBar = () => {
                             <li><a class="active" href="#headspace" onClick={() => closeMenu()}>Home</a></li>
                             <div className="Mode" id='menu_toggle' onClick={() => closeMenu()}>
                                 <Toggle toggled={toggled} onClick={handleClick} />
-                                {theme.mode === 'dark' ? "Dark Mode" : "Light Mode"}
+                                {theme.mode === 'dark' ? "Light Mode" : "Dark Mode"}
                             </div>
                             <li><a href="https://seat.seachest.net/home" target="_blank" onClick={() => closeMenu()}>Seat Login</a></li>
                             <li><a href="https://path.shadowflight.org/map/MQ%3D%3D" target="_blank" onClick={() => closeMenu()}>Pathfinder</a></li>
