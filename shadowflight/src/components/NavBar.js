@@ -91,6 +91,14 @@ const NavBar = () => {
         background: ${props =>
             props.theme.mode === 'dark' ? '#34495E ' : '#1F618D'};
     }
+    #discordLogoDay {
+        display: ${props =>
+            props.theme.mode === 'dark' ? 'none' : ''};
+    }
+    #discordLogoNight {
+        display: ${props =>
+            props.theme.mode === 'dark' ? '' : 'none'};
+    }
     };
 `
 

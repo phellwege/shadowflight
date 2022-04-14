@@ -1,5 +1,6 @@
 import React from 'react';
 import discordCustom from '../static/discordCustom.png'
+import discordBlue from '../static/discordBlue.png'
 export default () => {
     return (
         <>
@@ -17,7 +18,8 @@ export default () => {
                         <p>If you would like to reach us regarding a diplomacy issue, please reach out to _____________ in game</p>
                     </div>
                 </div>
-                <a href ='https://discord.gg/xUnv7yZV' id='discordLogo'><img src={discordCustom}/><br/>Discord</a>
+                <a href ='https://discord.gg/xUnv7yZV' id='discordLogoNight'><img src={discordCustom}/><br/>Discord</a>
+                <a href ='https://discord.gg/xUnv7yZV' id='discordLogoDay'><img src={discordBlue}/><br/><span id='royal_blue'>Discord</span></a>
             </div>
         </>
     )
