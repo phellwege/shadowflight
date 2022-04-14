@@ -42,7 +42,7 @@ export default () => {
                                     loop: true,
                                 }}
                             />
-                            <ul>
+                            <ul id='whatWeOffer'>
                                 <li>PVP</li>
                                 <li>Mining</li>
                                 <li>Exploration</li>

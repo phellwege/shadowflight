@@ -121,4 +121,8 @@
   #containerDiv {
     width: 85%;
   }
+  #divSplit #whatWeOffer li {
+    text-align: center;
+    list-style: none;
+  }
 }
