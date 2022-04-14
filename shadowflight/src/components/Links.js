@@ -23,32 +23,21 @@ export default () => {
                                 <li><a href='https://wiki.eveuniversity.org/Gas_cloud_harvesting'>Gas Cloud Harvesting</a></li>
                                 <li><a href='https://ore.cerlestes.de/ore#site:ore'>ORE Tables</a></li>
                                 <li><a href='https://wiki.eveuniversity.org/Reactions'>Reactions</a></li>
+                                <li><a href='https://www.youtube.com/watch?v=qNzvrDrPtcg'>Reaction Tutorial</a></li>
                             </ul>
                         </div>
                         <div id='inner-div'>
                             <h3>Wormhole Life</h3>
                                 <ul id='whatWeOffer'>
-                                    <li>PVP</li>
-                                    <li>Mining</li>
-                                    <li>Exploration</li>
-                                    <li>Gas Huffing</li>
-                                    <li>Moon Mining</li>
-                                    <li>Small Gang Roams</li>
-                                    <li>C3 and C5 Ratting</li>
-                                    <li>Planetary Interaction</li>
+                                    <li><a href='https://docs.google.com/document/d/18Izmfii3oWAoBwu87xjiq-ayNKa5fyReX5wHp-T8KDw/edit'>Bookmarking Guide</a></li>
+                                    <li><a href='https://www.ellatha.com/eve/wormholelist.asp'>WH List</a></li>
+                                    <li><a href='https://wiki.eveuniversity.org/Implants'>Implants</a></li>
                                 </ul>                        
                         </div>
                         <div id='inner-div'>
                             <h3>PVE Survival Guides</h3>
                             <ul id='whatWeOffer'>
-                                <li>PVP</li>
-                                <li>Mining</li>
-                                <li>Exploration</li>
-                                <li>Gas Huffing</li>
-                                <li>Moon Mining</li>
-                                <li>Small Gang Roams</li>
-                                <li>C3 and C5 Ratting</li>
-                                <li>Planetary Interaction</li>
+                                <li><a href='https://eve-survival.org/wikka.php?wakka=HomePage'>EVE Survival</a></li>
                             </ul>
                         </div>
                     </div>
