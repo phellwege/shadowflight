@@ -1,4 +1,6 @@
 import React from 'react';
+import Harbinger from '../static/harbinger.gif'
+
 
 export default () => {
     return (
@@ -9,7 +11,11 @@ export default () => {
                         <div id='container-div'>
                             <div id='about-div'>
                                 <h2>zKillBoard</h2>
-                                <a href='https://zkillboard.com/corporation/98504902/'>ZkillBoard</a>
+                                <a href='https://zkillboard.com/corporation/98504902/'>
+                                    <img src={Harbinger}/>
+                                    <br/>
+                                    ZkillBoard
+                                </a>
                             </div>
                         </div>
                         <br/>
