@@ -36,7 +36,7 @@ export default () => {
                             <ul>
                                 <li>A good Attitude</li>
                                 <li>Willingness to participate</li>
-                                <li></li>
+                                <li>If you're new to the game, then a desire to learn</li>
                                 <li>voice comms (discord) required for in game activities.</li>
                                 <li>No SP requirement all are welcome</li>
                             </ul>
@@ -46,13 +46,16 @@ export default () => {
                             <p>We will provide free starter ships to help get players settled and established while also sharing the necessary wormhole knowledge via our active discord</p>
                         </div>
                         <div id='inner-div'>
-                            <h3>Div 4</h3>
+                            <h3>What we Offer</h3>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>A great community</li>
+                                <li>Ratting</li>
+                                <li>PVP</li>
+                                <li>Mining</li>
+                                <li>Exploration</li>
+                                <li>Small Gang Roams</li>
+                                <li>Planetary Interaction</li>
+                                <li>Moon Mining</li>
                             </ul>
                         </div>
                     </div>
