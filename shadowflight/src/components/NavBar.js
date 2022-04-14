@@ -111,6 +111,18 @@ const NavBar = () => {
         border:${props =>
             props.theme.mode === 'dark' ? '2px solid #1ABC9C' : '2px solid royalblue'};
     }
+    #shipImg {
+        border:${props =>
+            props.theme.mode === 'dark' ? '5px solid #1ABC9C' : '5px solid royalblue'};
+    }
+    #whatWeOffer li a {
+        color:${props =>
+            props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
+    }
+    #whatWeOffer li a:hover {
+        text-shadow:${props =>
+            props.theme.mode === 'dark' ? '0 0 1.25px #1ABC9C' : '0 0 1.25px royalblue'};
+    }
     };
 `
     return (

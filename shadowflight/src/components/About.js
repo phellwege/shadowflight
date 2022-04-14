@@ -43,14 +43,14 @@ export default () => {
                                 }}
                             />
                             <ul id='whatWeOffer'>
-                                <li>PVP</li>
-                                <li>Mining</li>
+                                <li>Planetary Interaction</li>
+                                <li>C3 and C5 Ratting</li>
+                                <li>Small Gang Roams</li>
+                                <li>Moon Mining</li>
                                 <li>Exploration</li>
                                 <li>Gas Huffing</li>
-                                <li>Moon Mining</li>
-                                <li>Small Gang Roams</li>
-                                <li>C3 and C5 Ratting</li>
-                                <li>Planetary Interaction</li>
+                                <li>Mining</li>
+                                <li>PVP</li>
                             </ul>
                         </div>
                     </div>
