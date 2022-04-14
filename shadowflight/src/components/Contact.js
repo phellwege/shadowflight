@@ -23,9 +23,7 @@ export default () => {
                                 <span id='in_game'>Cookadile Dundee</span>
                                 <p>(EU Time Zone)
                                 <br/>
-                                or
-                                <span id='in_game'>Lal </span>
-                                (US Time Zone) in game.</p>
+                                in-game</p>
                             </div>
                     </div>
                     <div id='inner-div'>
