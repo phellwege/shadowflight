@@ -31,7 +31,7 @@ export default () => {
                         </div>
                         <div id='inner-div'>
                             <h3>Getting Started</h3>
-                            <p>We will provide free starter ships to help get players settled and established while also sharing the necessary wormhole knowledge via our active discord</p>
+                            <p>We will provide free starter ships to help get players settled and established while also sharing the necessary wormhole knowledge via our active discord. <a href='/NewBroLinks'>Helpful links</a></p>
                         </div>
                         <div id='inner-div'>
                             <h3>What we Offer</h3>
