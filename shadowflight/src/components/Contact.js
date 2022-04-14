@@ -17,6 +17,7 @@ export default () => {
                             <br/>
                             Contact in-game:
                         </p> 
+                        <div>
                             <div>
                                 <img src={cookadile} id='portrait'/>
                                 <br/>
@@ -25,6 +26,15 @@ export default () => {
                                 <br/>
                                 in-game</p>
                             </div>
+                            <div>
+                                <img src={cookadile} id='portrait'/>
+                                <br/>
+                                <span id='in_game'>Cookadile Dundee</span>
+                                <p>(EU Time Zone)
+                                <br/>
+                                in-game</p>
+                            </div>
+                        </div>
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
