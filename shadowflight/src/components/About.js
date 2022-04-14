@@ -6,20 +6,10 @@ export default () => {
         <>
             <div class="page_wrap" id='About'>
                 <div>
-                    <h2>About Us</h2>
-                        <p>
-                            <Typewriter
-                            options={{
-                                strings: ['PVP', 'Ratting', 'Mining', 'Exploration', 'Small Gang Roams', 'Planetary Interaction', 'Moon Mining'],
-                                autoStart: true,
-                                loop: true,
-                            }}
-                            />
-                        </p>
                         <br/>
                         <div id='container-div'>
                             <div id='about-div'>
-                                <h3>Who we are</h3>
+                                <h2>Who we are</h2>
                                 <p>We are a corp that focuses on helping introduce players of all kinds into worm-holing. While our primary focus is on guiding new players into the wormhole life, Eve veterans can also enjoy our laid back atmosphere.
                                 <br/>
                                 We've been around for 4 years building our community and now reside in a Class 4 wormhole with an easier C3 and a tougher C5 static, so there's gameplay for both newer and more experienced players to enjoy.
@@ -45,8 +35,14 @@ export default () => {
                         </div>
                         <div id='inner-div'>
                             <h3>What we Offer</h3>
+                            <Typewriter
+                                options={{
+                                    strings: ['PVP', 'Ratting', 'Mining', 'Exploration', 'Small Gang Roams', 'Planetary Interaction', 'Moon Mining'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
                             <ul>
-                                <li>A Great Community</li>
                                 <li>PVP</li>
                                 <li>Mining</li>
                                 <li>Exploration</li>

@@ -54,6 +54,9 @@
 #inner-div {
   width:25%;
 }
+#inner-div div img {
+  width: 100px;
+}
 #royal_blue {
   color: royalblue;
 }
@@ -62,7 +65,7 @@
   font-size: 1.1em;
 }
 #portrait {
-  margin: 7.5px;
+  margin: 7.5px 7.5px 0px 7.5px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

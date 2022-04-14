@@ -12,7 +12,21 @@ export default () => {
                 <div id='divSplitContact'>
                     <div id='inner-div'>
                         <h3>Recruitment</h3>
-                        <p>We've got a really great community, if you're interested in seeing if we're the right fit. contact: <img src={cookadile} id='portrait'/><br/><span id='in_game'>Cookadile Dundee</span> (EU Time Zone) or <span id='in_game'>Lal</span> (US Time Zone) in game.</p>
+                        <p>
+                            We've got a really great community, if you're interested in seeing if we're the right fit.
+                            <br/>
+                            Contact in-game:
+                        </p> 
+                            <div>
+                                <img src={cookadile} id='portrait'/>
+                                <br/>
+                                <span id='in_game'>Cookadile Dundee</span>
+                                <p>(EU Time Zone)
+                                <br/>
+                                or
+                                <span id='in_game'>Lal </span>
+                                (US Time Zone) in game.</p>
+                            </div>
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
