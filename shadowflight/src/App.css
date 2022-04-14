@@ -88,3 +88,24 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 500px) {
+  #divSplit {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  #divSplit ul li {
+    text-align: left;
+  }
+  #divSplitContact {
+    display: flex;
+    flex-direction: column;
+  }
+  #inner-div {
+    width: 100%;
+    padding: 5%;
+  }
+  #containerDiv {
+    width: 85%;
+  }
+}
