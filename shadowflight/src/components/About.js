@@ -25,7 +25,7 @@ export default () => {
                                 <li>A good Attitude</li>
                                 <li>Willingness to participate</li>
                                 <li>If you're new to the game, then a desire to learn</li>
-                                <li>voice comms (discord) required for in game activities.</li>
+                                <li>Voice comms (discord) required for in game activities</li>
                                 <li>No SP requirement all are welcome</li>
                             </ul>
                         </div>
@@ -37,7 +37,7 @@ export default () => {
                             <h3>What we Offer</h3>
                             <Typewriter
                                 options={{
-                                    strings: ['PVP', 'Ratting', 'Mining', 'Exploration', 'Small Gang Roams', 'Planetary Interaction', 'Moon Mining'],
+                                    strings: ['PVP', 'Ratting', 'Mining', 'Exploration', 'Small Gang Roams', 'Moon Mining'],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -45,6 +45,7 @@ export default () => {
                             <ul id='whatWeOffer'>
                                 <li>Planetary Interaction</li>
                                 <li>C3 and C5 Ratting</li>
+                                <li>Lots of Industry</li>
                                 <li>Small Gang Roams</li>
                                 <li>Moon Mining</li>
                                 <li>Exploration</li>

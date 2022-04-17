@@ -40,7 +40,7 @@ export default () => {
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
-                        <p>If you would like to reach us regarding a diplomacy issue, please join the <span id='in_game'>"Shadow Flight Diplo"</span> channel in game</p>
+                        <p>If you would like to reach us regarding a diplomacy issue, please follow this link to our discord or join the <a href='https://discord.gg/xUnv7yZV'>"Shadow Flight Diplo"</a> channel in-game.</p>
                     </div>
                 </div>
                 <br/>
