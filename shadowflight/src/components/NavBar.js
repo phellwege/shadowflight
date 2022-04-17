@@ -146,7 +146,7 @@ const NavBar = () => {
                             <li><a href="https://seat.seachest.net/home" target="_blank" onClick={() => closeMenu()}>Seat Login</a></li>
                             <li><a href="https://path.shadowflight.org/map/MQ%3D%3D" target="_blank" onClick={() => closeMenu()}>Pathfinder</a></li>
                             <li><a href="/#About" onClick={() => closeMenu()}>About</a></li>
-                            <li><a href="/NewBroLinks" onClick={() => closeMenu()}>NewBro Links</a></li>
+                            <li><a href="/NewBroLinks" onClick={() => closeMenu()}>Helpful Links</a></li>
                             <li><a href="/#Contact" onClick={() => closeMenu()}>Contact Us</a></li>
                             <a href='https://discord.gg/xUnv7yZV'><img src={Discord} id='discordLogo'/><br/>Discord</a>
                             <img src={Stratios} id='Stratios'/>

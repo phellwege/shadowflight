@@ -65,7 +65,16 @@
   list-style: none;
 }
 #shipImg {
+  display: flex;
+  flex-direction: column;
   border-radius: 5px;
+  width: 570px;
+}
+#shipImg .alice-carousel__prev-btn {
+  width: 10%;
+}
+#shipImg .alice-carousel__next-btn {
+  width:10%;
 }
 #inner-div {
   width:25%;
@@ -127,7 +136,8 @@
   }
   #inner-div {
     width: 100%;
-    padding: 5%;
+    padding-top:5%;
+    padding-bottom: 5%;
   }
   #containerDiv {
     width: 100%;
@@ -140,6 +150,9 @@
     align-items: center;
   }
   #shipImg {
-    width: 225px;
+    width: 285px;
+  }
+  #shipImg .alice-carousel_wrapper {
+    height: 125px;
   }
 }

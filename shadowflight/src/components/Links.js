@@ -1,10 +1,20 @@
 import React from 'react';
-
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
 import Harbinger from '../static/harbinger.gif'
 import Abaddon from '../static/abaddon.gif'
 import Drake from '../static/drake.gif'
 import Hurricane from '../static/hurricane.gif'
 import Typhoon from '../static/typhoon.gif'
+
+const handleDragStart = (e) => e.preventDefault();
+const ships = [
+    <img src={Abaddon} onDragStart={handleDragStart} />,
+    <img src={Drake} onDragStart={handleDragStart} />,
+    <img src={Hurricane} onDragStart={handleDragStart} />,
+    <img src={Typhoon} onDragStart={handleDragStart} />,
+    <img src={Harbinger} onDragStart={handleDragStart} />,
+];
 
 export default () => {
     return (
@@ -15,12 +25,10 @@ export default () => {
                         <div id='container-div'>
                             <div id='about-div'>
                                 <h2>zKillBoard</h2>
+                                <div id='shipImg'>
+                                <AliceCarousel mouseTracking items={ships} autoPlay={true} autoPlayInterval={3000} infinite={true} innerWidth={570}/>
+                                </div>
                                 <a href='https://zkillboard.com/corporation/98504902/'>
-                                        {/* <img src={Abaddon}  id='shipImg'/> */}
-                                        <img src={Drake}  id='shipImg'/>
-                                        {/* <img src={Hurricane}  id='shipImg'/>
-                                        <img src={Typhoon}  id='shipImg'/>
-                                    <img src={Harbinger} id='shipImg'/> */}
                                     <br/>
                                     ZkillBoard
                                 </a>
